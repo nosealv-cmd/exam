@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", sans-serif;
+  }
+  
+  body {
+    background: #f5f7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #ddd;
+    overflow: hidden;
+    background: white;
+  }
+  
+  .left {
+    flex: 1;
+    background: linear-gradient(to bottom, #6943ff, #2f2ce9);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 20px 0 0 20px;
+  }
+  
+  .title {
+    font-size: 1.2rem;
+    opacity: 0.8;
+  }
+  
+  .circle {
+    background: #4e21ca;
+    width: 120px;
+    height: 120px;
+    margin: 1.5rem auto;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+  }
+  
+  .score {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .of {
+    font-size: 0.9rem;
+    opacity: 0.6;
+  }
+  
+  .description .rating {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .message {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    opacity: 0.8;
+  }
+  
+  .right {
+    flex: 1;
+    padding: 2rem;
+  }
+  
+  .summary-title {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .skills-list {
+    list-style: none;
+    margin-bottom: 1.5rem;
+  }
+  
+  .skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f5f7ff;
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+    margin-bottom: 0.8rem;
+    font-weight: 500;
+  }
+  
+  .skill.reaction { background: #fff6f5; color: #d95855; }
+  .skill.memory   { background: #fffbf2; color: #f3af43; }
+  .skill.verbal   { background: #f2fafa; color: #3c9b94; }
+  .skill.visual   { background: #f3f3fd; color: #3f3dc2; }
+  
+  .label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .score .value {
+    font-weight: bold;
+    color: #303b5a;
+  }
+  
+  .total {
+    opacity: 0.5;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    background: #303b5a;
+    color: white;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background: #1f2a44;
+  }
+  
